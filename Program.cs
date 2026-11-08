@@ -196,33 +196,33 @@ do
 while (choice != 0);
 
 
-static int Sum(int a, int b)
-{
-    return a + b;
-}
+// static int Sum(int a, int b)
+// {
+//     return a + b;
+// }
 
-static int Max(int a, int b)
-{
-    return a > b ? a : b;
-}
+// static int Max(int a, int b)
+// {
+//     return a > b ? a : b;
+// }
 
-static long Factorial(int n)
-{
-    long result = 1;
-    for (int i = 2; i <= n; i++)
-    {
-        result *= i;
-    }
-    return result;
-}
+// static long Factorial(int n)
+// {
+//     long result = 1;
+//     for (int i = 2; i <= n; i++)
+//     {
+//         result *= i;
+//     }
+//     return result;
+// }
 
-static int ReadPositive(string message)
-{
-    int num;
-    do
-    {
-        Console.Write(message);
-        num = int.Parse(Console.ReadLine());
-    } while (num <= 0);
-    return num;
-}
+// static int ReadPositive(string message)
+// {
+//     int num;
+//     do
+//     {
+//         Console.Write(message);
+//         num = int.Parse(Console.ReadLine());
+//     } while (num <= 0);
+//     return num;
+// }
